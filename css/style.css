@@ -1,0 +1,146 @@
+/*Responsive div*/
+:root {
+    --nd: 5;
+    --b: 1%;
+    --cal1: calc(var(--b)*2);
+    --cal2: calc(var(--cal1)*var(--nd));
+    --cal3: calc(100% - var(--cal2));
+    --cal: calc(var(--cal3)/var(--nd));
+}
+
+div.cards {
+    width: 100%;
+    background-color: rgb(247, 108, 108);
+}
+
+div.card {
+    width: var(--cal);
+    margin: var(--b);
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+div.cardf {
+    width: 70%;
+    margin: var(--b);
+    background-color: rgba(255, 255, 255, 0.527);
+}
+
+.card-imgf {
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url("htttp://placekitten.com/200/300");
+    height: 200px;
+}
+
+.card-header {
+    justify-content: center;
+}
+
+/*Responsive*/
+@media screen and (max-device-width: 900px) and (min-device-width: 400px) {
+    :root {
+        --nd: 3;
+        --b: 2%;
+    }
+
+    .card-imgf {
+        width: 70%;
+    }
+}
+
+@media screen and (max-device-width: 400px) {
+    :root {
+        --nd: 1;
+        --b: 2%;
+    }
+
+    .card-imgf {
+        width: 70%;
+    }
+}
+
+/* Body */
+body {
+    background-color: #FFFBF5;
+}
+
+/*nav bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(247, 108, 108);
+}
+
+nav {
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: rgb(139, 139, 139);
+}
+
+/*Fonts */
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+p {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: x-large;
+}
+
+/* Maps-Leafletsjs */
+
+#map {
+    height: 500px;
+}
+
+div {
+    text-align: center;
+}
+
+img {
+    width: 200px;
+}
+
+#at {
+    width: 300px;
+}
+
+/*Footer*/
+footer {
+    display: block;
+    background-color: rgba(247, 108, 108, 0.192);
+
+}
+
+/*Tableau Tr */
+tr {
+    font-size: x-large;
+}
+
+/*pic_Equipie*/
+
+.equipe {
+    justify-content: flex-end;
+    padding-left: 40%;
+    width: 40%;
+    min-width: 200px;
+}
