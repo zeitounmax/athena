@@ -2,7 +2,8 @@
 
 ![logo](https://user-images.githubusercontent.com/120447954/216831622-1f2683b9-e059-4631-9845-e3f4e59e6acc.png)
 
-<a href="https://ibb.co/s9nSxND"><img src="https://i.ibb.co/r2YP8zL/Capture-d-cran-du-2023-07-28-09-12-38.png" alt="Capture-d-cran-du-2023-07-28-09-12-38" border="0"></a><br /><a target='_blank' href='https://imgbb.com/'>site png</a><br />
+![Screen1](https://i.ibb.co/r2YP8zL/Capture-d-cran-du-2023-07-28-09-12-38.png)
+
 
 This is a project of directory of people who participated in this mini training on the initiation to code at the wild code school of Reims in December 2022.
 
