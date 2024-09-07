@@ -13,3 +13,6 @@ The project was written in HTML, CSS and Javascript. Javascript was used to crea
 **_This project was done by @ZeitounMax and @Elodie0530_**![image](https://user-images.githubusercontent.com/120447954/216831852-edfc1ca2-eaae-4d1a-8cd8-aa1d3fe6fc29.png)
 
 The project is available on githubpage.
+
+
+*
