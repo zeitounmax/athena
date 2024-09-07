@@ -175,9 +175,9 @@ const donneesPromo = [
     {
         nom: "Thiry",
         prenom: "Maximilien",
-        ville: "Charleville-Mézières",
-        age: "32 ans",
-        presentation: "Juste un type qui essaie de coder et qui est sympa.",
+        ville: "Pays Sedenais(08)",
+        age: "3.4 ans",
+        presentation: "Zeima,Codeur fou,membre d'une jeune chambre economique,activiste du libre. Comique a ces heures perdu et dors de trop ou regarde de trop Koseki Bijou en Stream(Otaku aussi)",
 
     },
     {
