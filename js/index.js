@@ -14,7 +14,8 @@ function createCard(itemData) {
     const cardImg = document.createElement("img");
     cardHeader.appendChild(cardImg);
     cardImg.classList.add("card-img");
-    cardImg.setAttribute("style", `background-image: url('../img/${itemData.prenom}.png');`);
+    cardImg.src = `../img/${itemData.prenom}.png`;
+    cardImg.alt = `${itemData.prenom} ${itemData.nom}`;
 
     // Create card body
     const cardBody = document.createElement("div");
@@ -27,24 +28,25 @@ function createCard(itemData) {
     cardTitle.classList.add("card-title");
     cardTitle.textContent = `${itemData.prenom} ${itemData.nom}`;
 
-    // Create card title
-    const cardage = document.createElement("p");
-    cardBody.appendChild(cardage);
-    cardage.classList.add("cardage");
-    cardage.textContent = `Age: ${itemData.age}`;
+    // Age
+    const cardAge = document.createElement("p");
+    cardBody.appendChild(cardAge);
+    cardAge.classList.add("cardage");
+    cardAge.textContent = `Âge : ${itemData.age}`;
 
-    // Create card ville
-    const cardageVille = document.createElement("p");
-    cardBody.appendChild(cardage);
-    cardage.classList.add("cardage");
-    cardage.textContent = `Ville: ${itemData.ville}`;
+    // Ville
+    const cardVille = document.createElement("p");
+    cardBody.appendChild(cardVille);
+    cardVille.classList.add("cardage");
+    cardVille.textContent = `Ville : ${itemData.ville}`;
 
-    // Create card description
+    // Description
     const cardDescription = document.createElement("p");
     cardBody.appendChild(cardDescription);
     cardDescription.classList.add("card-description");
     cardDescription.textContent = itemData.presentation;
 }
+
 function createCardf(itemData) {
     // Create card
     const card = document.createElement("div");
@@ -61,7 +63,8 @@ function createCardf(itemData) {
     const cardImg = document.createElement("img");
     cardHeader.appendChild(cardImg);
     cardImg.classList.add("card-imgf");
-    cardImg.setAttribute("style", `background-image: url('../img/${itemData.prenom}.png');`);
+    cardImg.src = `../img/${itemData.prenom}.png`;
+    cardImg.alt = `${itemData.prenom} ${itemData.nom}`;
 
     // Create card body
     const cardBody = document.createElement("div");
@@ -74,19 +77,19 @@ function createCardf(itemData) {
     cardTitle.classList.add("card-title");
     cardTitle.textContent = `${itemData.prenom} ${itemData.nom}`;
 
-    // Create card title
-    const cardage = document.createElement("p");
-    cardBody.appendChild(cardage);
-    cardage.classList.add("cardage");
-    cardage.textContent = `Age: ${itemData.age}`;
+    // Age
+    const cardAge = document.createElement("p");
+    cardBody.appendChild(cardAge);
+    cardAge.classList.add("cardage");
+    cardAge.textContent = `Âge : ${itemData.age}`;
 
-    // Create card ville
-    const cardageVille = document.createElement("p");
-    cardBody.appendChild(cardage);
-    cardage.classList.add("cardage");
-    cardage.textContent = `Ville: ${itemData.ville}`;
+    // Ville
+    const cardVille = document.createElement("p");
+    cardBody.appendChild(cardVille);
+    cardVille.classList.add("cardage");
+    cardVille.textContent = `Ville : ${itemData.ville}`;
 
-    // Create card description
+    // Description
     const cardDescription = document.createElement("p");
     cardBody.appendChild(cardDescription);
     cardDescription.classList.add("card-description");
